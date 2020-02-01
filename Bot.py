@@ -15,7 +15,7 @@ def start(update, context):
 def setDate(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Please input your Birth Date in DDMM format Eg. For 31st Jan Input <3101>")
 
-def setHoros    cope(update, context):
+def setHoroscope(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="INPUT")
 
 def echo(update, context):
